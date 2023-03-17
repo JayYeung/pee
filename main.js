@@ -14,7 +14,7 @@ const { spawn, execSync } = require('node:child_process');
 app.use("/api/count", (req, res) => {
     // On Windows Only...
     // const bat = spawn('C:/Users/Jay_Y/AppData/Local/Programs/Python/Python310/python.exe', ['a.py']);
-    const out = execSync('C:/Users/Jay_Y/AppData/Local/Programs/Python/Python310/python.exe a.py');
+    const out = execSync('python.exe a.py');
 
     // var out = "";
 
